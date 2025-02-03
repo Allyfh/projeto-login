@@ -1,1 +1,0 @@
-Parabéns! Agora você está oficialmente logado em nossa página. A partir de agora faça qualquer navegação em nosso site!

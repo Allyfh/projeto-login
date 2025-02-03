@@ -7,11 +7,6 @@ marron escuro: #BF895A
 
 */
 
-:root {
-    --cor0: #908360;
-    --cor1: #BF895A;
-}
-
 *{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
@@ -20,42 +15,43 @@ marron escuro: #BF895A
 }
 
 body, html{
-   background-color: var(--cor1);
-   width: 100vw;
-   height: 100vh;
-   
+    background-color: #BF895A;
+    width: 100vw;
+    height: 100vh;
 }
 
 main{
     position: relative;
     width: 100vw;
     height: 100vh;
-    
 }
-
 
 section#login{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
 
-    width: 300px;
-    height: 550px;
     background-color: white;
+    width: 350px;
+    height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.425);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 }
 
 section#login > div#imagem{
-    background: #908360 url(../imagens/login.jpg) no-repeat; 
-    height: 300px;
-    background-position: bottom center;
     display: block;
+    background: #BF895A url(../imagens/login.jpg);
+    background-size: cover;
+   
+    height: 350px;
+    background-position: top center;
+    margin: auto;
 }
 
 section#login > div#formulario{
     display: block;
-    padding: 10px;
+    padding: 20px;
+    text-align: justify;
 }
